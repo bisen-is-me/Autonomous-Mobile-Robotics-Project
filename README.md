@@ -1,7 +1,3 @@
-# ME5413_Final_Project
-
-NUS ME5413 Autonomous Mobile Robotics Final Project
-> Authors: Christina Lee, Dongen Li, Yuhang Han, and Shuo Sun
 
 ![Ubuntu 20.04](https://img.shields.io/badge/OS-Ubuntu_20.04-informational?style=flat&logo=ubuntu&logoColor=white&color=2bbc8a)
 ![ROS Noetic](https://img.shields.io/badge/Tools-ROS_Noetic-informational?style=flat&logo=ROS&logoColor=white&color=2bbc8a)
@@ -185,7 +181,3 @@ We are following:
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html),
 * [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#main),
 * [ROS C++ Style Guide](http://wiki.ros.org/CppStyleGuide)
-
-## License
-
-The [ME5413_Final_Project](https://github.com/NUS-Advanced-Robotics-Centre/ME5413_Final_Project) is released under the [MIT License](https://github.com/NUS-Advanced-Robotics-Centre/ME5413_Final_Project/blob/main/LICENSE)
