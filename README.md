@@ -3,10 +3,6 @@
 ![ROS Noetic](https://img.shields.io/badge/Tools-ROS_Noetic-informational?style=flat&logo=ROS&logoColor=white&color=2bbc8a)
 ![C++](https://img.shields.io/badge/Code-C++-informational?style=flat&logo=c%2B%2B&logoColor=white&color=2bbc8a)
 ![Python](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=Python&logoColor=white&color=2bbc8a)
-![GitHub Repo stars](https://img.shields.io/github/stars/NUS-Advanced-Robotics-Centre/ME5413_Final_Project?color=FFE333)
-![GitHub Repo forks](https://img.shields.io/github/forks/NUS-Advanced-Robotics-Centre/ME5413_Final_Project?color=FFE333)
-
-![cover_image](src/me5413_world/media/gazebo_world.jpg)
 
 ## Dependencies
 
@@ -42,7 +38,6 @@ This repo is a ros workspace, containing three rospkgs:
 
 * `interactive_tools` are customized tools to interact with gazebo and your robot
 * `jackal_description` contains the modified jackal robot model descriptions
-* `me5413_world` the main pkg containing the gazebo world, and the launch files
 
 **Note:** If you are working on this project, it is encouraged to fork this repository and work on your own fork!
 
@@ -51,8 +46,7 @@ After forking this repo to your own github:
 ```bash
 # Clone your own fork of this repo (assuming home here `~/`)
 cd
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/ME5413_Final_Project.git
-cd ME5413_Final_Project
+git clone https://github.com/<YOUR_GITHUB_USERNAME>/BreadcrumbsAutonomous-Mobile-Robotics-Project.git
 
 # Install all dependencies
 rosdep install --from-paths src --ignore-src -r -y
@@ -81,23 +75,12 @@ There are two sources of models needed:
   cp -r ~/gazebo_models/* ~/.gazebo/models
   ```
 
-* [Our customized models](https://github.com/NUS-Advanced-Robotics-Centre/ME5413_Final_Project/tree/main/src/me5413_world/models)
-
-  ```bash
-  # Copy the customized models into the `~/.gazebo/models` directory
-  cp -r ~/ME5413_Final_Project/src/me5413_world/models/* ~/.gazebo/models
-  ```
-
 ## Usage
 
 ### 0. Gazebo World
 
 This command will launch the gazebo with the project world
 
-```bash
-# Launch Gazebo World together with our robot
-roslaunch me5413_world world.launch
-```
 
 ### 1. Manual Control
 
